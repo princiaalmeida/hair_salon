@@ -1,0 +1,985 @@
+
+
+  VITE v7.2.4  ready in 427 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/ui/toaster" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/App.tsx:1:24
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Toaster } from  2  |  import { Toaster } from  2  |  import { Toaster } from  2  |  import { Toaster } from  2  |  import { Toaster } from  2  |  import { Toaster } from  2  der } from "@/components/ui/tooltip";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Booking.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Booking.tsx:2:41
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+        import { useNavigate, useLocation } from "react-router-dom";
+     |                                            ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Index.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Index.tsx:1:25
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Navigate } from "react-router-dom";
+     |                            ^
+  3  |  const Index = () => {
+  4  |    return /* @__PURE__ */ jsxDEV(Navigate, { to: "/home", replace: true }, void 0, false, {
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Home.tsx:1:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+     |                        ^
+  3  |  import { Button } from "@/components/ui/button";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/Contact.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Contact.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  4  |  import Footer from "@/components/Footer";
+  5  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Auth.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Auth.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/NotFound.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/NotFound.tsx:1:28
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useLocation } from "react-router-dom";
+     |                               ^
+  4  |  import { useEffect } from "react";
+  5  |  const NotFound = () => {
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/About.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/About.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  3  |  import Footer from "@/components/Footer";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Services.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Services.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useState } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import Navbar from "@/components/Navbar";
+  6  |  import Footer from "@/components/Footer";
+7:21:05 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Services.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Services.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useState } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import Navbar from "@/components/Navbar";
+  6  |  import Footer from "@/components/Footer"; (x2)
+7:21:05 PM [vite] Internal server error: Failed to resolve import "@/components/ui/toaster" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/App.tsx:1:24
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Toaster } from "@/components/ui/toaster";
+     |                           ^
+  3  |  import { Toaster as Sonner } from "@/components/ui/sonner";
+  4  |  import { TooltipProvider } from "@/components/ui/tooltip";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Home.tsx:1:21
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+     |                        ^
+  3  |  import { Button } from "@/components/ui/button";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/About.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/About.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  3  |  import Footer from "@/components/Footer";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/Contact.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Contact.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  4  |  import Footer from "@/components/Footer";
+  5  |  import { Card, CardContent } from "@/components/ui/card";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Auth.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Auth.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Booking.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Booking.tsx:2:41
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate, useLocation } from "react-router-dom";
+     |                                            ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/NotFound.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/NotFound.tsx:1:28
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useLocation } from "react-router-dom";
+     |                               ^
+  4  |  import { useEffect } from "react";
+  5  |  const NotFound = () => {
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/Index.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Index.tsx:1:25
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Navigate } from "react-router-dom";
+     |                            ^
+  3  |  const Index = () => {
+  4  |    return /* @__PURE__ */ jsxDEV(Navigate, { to: "/home", replace: true }, void 0, false, {
+7:21:06 PM [vite] (client) Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:2:28
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+     |                               ^
+  5  |  import { supabase } from "@/integrations/supabase/client";
+  6  |  import { Button } from "@/components/ui/button";
+You said:
+ok
+You said:
+:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; (x2)
+7:24:39 PM [vite] Internal server error: Failed to resolve import "@/components/ui/toaster" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/App.tsx:1:24
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Toaster } from "@/components/ui/toaster";
+     |                           ^
+  3  |  import { Toaster as Sonner } from "@/components/ui/sonner";
+  4  |  import { TooltipProvider } from "@/components/ui/tooltip";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/ui/button" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Home.tsx:2:23
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Button } from "@/components/ui/button";
+     |                          ^
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+  5  |  import { Sparkles, Clock, Award, Users } from "lucide-react";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/Services.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Services.tsx:3:19
+  3  |  import { useEffect, useState } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  6  |  import Footer from "@/components/Footer";
+  7  |  import { Card, CardContent, CardFooter } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/About.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/About.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  3  |  import Footer from "@/components/Footer";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/components/Navbar" from "src/pages/Contact.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Contact.tsx:1:19
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import Navbar from "@/components/Navbar";
+     |                      ^
+  4  |  import Footer from "@/components/Footer";
+  5  |  import { Card, CardContent } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/Auth.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Auth.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Input } from "@/components/ui/input";
+7:24:39 PM [vite] (client) Pre-transform error: Failed to resolve import "@/integrations/supabase/client" from "src/pages/Booking.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Booking.tsx:3:25
+  3  |  import { useState, useEffect } from "react";
+  4  |  import { useNavigate, useLocation } from "react-router-dom";
+  5  |  import { supabase } from "@/integrations/supabase/client";
+     |                            ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+You said:
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+
+
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
+
+this is tsconfig.app.json
+You said:
+    "noUncheckedSideEffectImports": true
+    "erasableSyntaxOnly": true,
+
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+these has errors
+You said:
+"erasableSyntaxOnly": true,
+"noUncheckedSideEffectImports": true
+"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ES2023",
+this is the error in tsconfig.node.json 4 errors
+
+"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+"erasableSyntaxOnly": true,
+    "noUncheckedSideEffectImports": true
+
+this is the error in tsconfig.app.json 3 error
+You said:
+stilll the same error
+You said:
+src/integrations/supabase/client.ts and src/components/Navbar.tsxthe folder exixt
+You said:
+s/Hair_salon/hair-salon/src/components/ui/select.tsx)
+  react-day-picker (imported by /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/calendar.tsx)
+
+Are they installed?
+    at file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:32551:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:34759:15
+You said:
+ at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+7:37:25 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/pages/About.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/About.tsx:4:46
+  3  |  import Footer from "@/components/Footer";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+  5  |  import { Award, Heart, Sparkles, Users } from "lucide-react";
+     |                                                 ^
+  6  |  const About = () => {
+  7  |    return /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen", children: [
+7:37:25 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/pages/Services.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Services.tsx:9:22
+  9  |  import { Badge } from "@/components/ui/badge";
+  10 |  import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  11 |  import { Clock } from "lucide-react";
+     |                         ^
+  12 |  import { supabase } from "@/integrations/supabase/client";
+  13 |  import { toast } from "sonner";
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "sonner" from "src/pages/Auth.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Auth.tsx:8:22
+  8  |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+  9  |  import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  10 |  import { toast } from "sonner";
+     |                         ^
+  11 |  import { Session } from "@supabase/supabase-js";
+  12 |  import Navbar from "@/components/Navbar";
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "sonner" from "src/pages/Booking.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Booking.tsx:9:22
+  9  |  import { Calendar } from "@/components/ui/calendar";
+  10 |  import { Textarea } from "@/components/ui/textarea";
+  11 |  import { toast } from "sonner";
+     |                         ^
+  12 |  import { Session } from "@supabase/supabase-js";
+  13 |  import Navbar from "@/components/Navbar";
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:7:40
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+  8  |  import { Badge } from "@/components/ui/badge";
+  9  |  import { Calendar, Clock, Trash2 } from "lucide-react";
+     |                                           ^
+  10 |  import { toast } from "sonner";
+  11 |  import { Session } from "@supabase/supabase-js";
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "sonner" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:8:22
+  8  |  import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  9  |  import { Badge } from "@/components/ui/badge";
+  10 |  import { toast } from "sonner";
+     |                         ^
+  11 |  import Navbar from "@/components/Navbar";
+  12 |  import { format } from "date-fns";
+7:37:26 PM [vite] Internal server error: Failed to resolve import "next-themes" from "src/components/ui/sonner.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/sonner.tsx:1:25
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useTheme } from "next-themes";
+     |                            ^
+  4  |  import { Toaster as Sonner, toast } from "sonner";
+  5  |  const Toaster = ({ ...props }) => {
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+7:37:26 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-tooltip" from "src/components/ui/tooltip.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tooltip.tsx:2:34
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TooltipPrimitive from "@radix-ui/react-tooltip";
+     |                                     ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const TooltipProvider = TooltipPrimitive.Provider;
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/pages/Contact.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Contact.tsx:7:58
+  7  |  import { Input } from "@/components/ui/input";
+  8  |  import { Textarea } from "@/components/ui/textarea";
+  9  |  import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+     |                                                             ^
+  10 |  import { toast } from "sonner";
+  11 |  import { useState } from "react";
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "next-themes" from "src/components/ui/sonner.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/sonner.tsx:1:25
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  var _s = $RefreshSig$();
+  3  |  import { useTheme } from "next-themes";
+     |                            ^
+  4  |  import { Toaster as Sonner, toast } from "sonner";
+  5  |  const Toaster = ({ ...props }) => {
+7:37:26 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tooltip" from "src/components/ui/tooltip.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tooltip.tsx:2:34
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TooltipPrimitive from "@radix-ui/react-tooltip";
+     |                                     ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const TooltipProvider = TooltipPrimitive.Provider;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js";
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x2)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x3)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x4)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x5)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x6)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x7)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @...
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @... (x2)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @... (x3)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js";
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @...
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x2)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x3)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x4)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x5)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tabs" from "src/components/ui/tabs.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tabs.tsx:2:31
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TabsPrimitive from "@radix-ui/react-tabs";
+     |                                  ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Tabs = TabsPrimitive.Root;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tabs" from "src/components/ui/tabs.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tabs.tsx:2:31
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TabsPrimitive from "@radix-ui/react-tabs";
+     |                                  ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Tabs = TabsPrimitive.Root; (x2)
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tabs" from "src/components/ui/tabs.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tabs.tsx:2:31
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TabsPrimitive from "@radix-ui/react-tabs";
+     |                                  ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Tabs = TabsPrimitive.Root;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/ui/select.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/select.tsx:3:46
+  2  |  import * as React from "react";
+  3  |  import * as SelectPrimitive from "@radix-ui/react-select";
+  4  |  import { Check, ChevronDown, ChevronUp } from "lucide-react";
+     |                                                 ^
+  5  |  import { cn } from "@/lib/utils";
+  6  |  const Select = SelectPrimitive.Root;
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/ui/calendar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/calendar.tsx:2:42
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import { ChevronLeft, ChevronRight } from "lucide-react";
+     |                                             ^
+  4  |  import { DayPicker } from "react-day-picker";
+  5  |  import { cn } from "@/lib/utils";
+7:37:27 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-toast" from "src/components/ui/toast.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/toast.tsx:2:33
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as ToastPrimitives from "@radix-ui/react-toast";
+     |                                    ^
+  4  |  import { cva } from "class-variance-authority";
+  5  |  import { X } from "lucide-react";
+7:37:27 PM [vite] Internal server error: Failed to resolve import "sonner" from "src/pages/Auth.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Auth.tsx:8:22
+  8  |  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+  9  |  import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  10 |  import { toast } from "sonner";
+     |                         ^
+  11 |  import { Session } from "@supabase/supabase-js";
+  12 |  import Navbar from "@/components/Navbar";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] Internal server error: Failed to resolve import "lucide-react" from "src/pages/Contact.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Contact.tsx:7:58
+  7  |  import { Input } from "@/components/ui/input";
+  8  |  import { Textarea } from "@/components/ui/textarea";
+  9  |  import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+     |                                                             ^
+  10 |  import { toast } from "sonner";
+  11 |  import { useState } from "react";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] Internal server error: Failed to resolve import "sonner" from "src/pages/Booking.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Booking.tsx:9:22
+  9  |  import { Calendar } from "@/components/ui/calendar";
+  10 |  import { Textarea } from "@/components/ui/textarea";
+  11 |  import { toast } from "sonner";
+     |                         ^
+  12 |  import { Session } from "@supabase/supabase-js";
+  13 |  import Navbar from "@/components/Navbar";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] Internal server error: Failed to resolve import "lucide-react" from "src/pages/Dashboard.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/Dashboard.tsx:7:40
+  7  |  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+  8  |  import { Badge } from "@/components/ui/badge";
+  9  |  import { Calendar, Clock, Trash2 } from "lucide-react";
+     |                                           ^
+  10 |  import { toast } from "sonner";
+  11 |  import { Session } from "@supabase/supabase-js";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] Internal server error: Failed to resolve import "lucide-react" from "src/pages/About.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/About.tsx:4:46
+  3  |  import Footer from "@/components/Footer";
+  4  |  import { Card, CardContent } from "@/components/ui/card";
+  5  |  import { Award, Heart, Sparkles, Users } from "lucide-react";
+     |                                                 ^
+  6  |  const About = () => {
+  7  |    return /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen", children: [
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] Internal server error: Failed to resolve import "sonner" from "src/pages/AdminPanel.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/pages/AdminPanel.tsx:8:22
+  8  |  import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  9  |  import { Badge } from "@/components/ui/badge";
+  10 |  import { toast } from "sonner";
+     |                         ^
+  11 |  import Navbar from "@/components/Navbar";
+  12 |  import { format } from "date-fns";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x2)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY; (x3)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tabs" from "src/components/ui/tabs.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tabs.tsx:2:31
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TabsPrimitive from "@radix-ui/react-tabs";
+     |                                  ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Tabs = TabsPrimitive.Root;
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js";
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x2)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x3)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x4)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js"; (x5)
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @...
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "@radix-ui/react-tabs" from "src/components/ui/tabs.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/tabs.tsx:2:31
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as TabsPrimitive from "@radix-ui/react-tabs";
+     |                                  ^
+  4  |  import { cn } from "@/lib/utils";
+  5  |  const Tabs = TabsPrimitive.Root;
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Navbar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Navbar.tsx:4:34
+  4  |  import { Link } from "react-router-dom";
+  5  |  import { Button } from "@/components/ui/button";
+  6  |  import { Menu, X, Scissors } from "lucide-react";
+     |                                     ^
+  7  |  import { supabase } from "@/integrations/supabase/client";
+  8  |  import { Session } from "@supabase/supabase-js";
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/Footer.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/Footer.tsx:2:46
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Link } from "react-router-dom";
+  3  |  import { Scissors, Phone, Mail, MapPin } from "lucide-react";
+     |                                                 ^
+  4  |  const Footer = () => {
+  5  |    return /* @__PURE__ */ jsxDEV("footer", { className: "bg-foreground/5 border-t border-border mt-20", children: /* @...
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/ui/select.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/select.tsx:3:46
+  2  |  import * as React from "react";
+  3  |  import * as SelectPrimitive from "@radix-ui/react-select";
+  4  |  import { Check, ChevronDown, ChevronUp } from "lucide-react";
+     |                                                 ^
+  5  |  import { cn } from "@/lib/utils";
+  6  |  const Select = SelectPrimitive.Root;
+7:37:28 PM [vite] (client) Pre-transform error: Failed to resolve import "lucide-react" from "src/components/ui/calendar.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/calendar.tsx:2:42
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import { ChevronLeft, ChevronRight } from "lucide-react";
+     |                                             ^
+  4  |  import { DayPicker } from "react-day-picker";
+  5  |  import { cn } from "@/lib/utils";
+7:37:29 PM [vite] (client) Pre-transform error: Failed to resolve import "@supabase/supabase-js" from "src/integrations/supabase/client.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/integrations/supabase/client.ts:2:29
+  1  |  import { createClient } from "@supabase/supabase-js";
+     |                                ^
+  2  |  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+  3  |  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+7:37:29 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-toast" from "src/components/ui/toast.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/almeida/Documents/Hair_salon/hair-salon/src/components/ui/toast.tsx:2:33
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import * as React from "react";
+  3  |  import * as ToastPrimitives from "@radix-ui/react-toast";
+     |                                    ^
+  4  |  import { cva } from "class-variance-authority";
+  5  |  import { X } from "lucide-react";
+      at TransformPluginContext._formatLog (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29647:43)
+      at TransformPluginContext.error (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29644:14)
+      at normalizeUrl (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27767:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27825:32
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:27793:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:29445:14)
+      at async loadAndTransform (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:23316:26)
+      at async viteTransformMiddleware (file:///Users/almeida/Documents/Hair_salon/hair-salon/node_modules/vite/dist/node/chunks/config.js:25188:20)
