@@ -1,4 +1,6 @@
-💇‍♀️ Hair Salon Website
+**💇‍♀️ Hair Salon Website**
+
+
 A modern, responsive website designed for a professional hair salon. This project showcases clean UI design, easy navigation, and essential features a salon customer expects — such as services, pricing, appointments, and contact information.
 
 ✨ Features
